@@ -90,13 +90,11 @@ Committing every experimental step to your real git history is noisy. Stashing l
 
 ```bash
 # From this repository
-git clone https://github.com/your-org/claude-checkpoint-manager.git
-cd claude-checkpoint-manager
+git clone https://github.com/mqz0211/claude-checkpoint-manager-ccm.git
+cd claude-checkpoint-manager-ccm
 npm install
 npm link          # makes the `ccm` command available globally
 
-# Or, once published:
-npm install -g claude-checkpoint-manager
 ```
 
 Requires Node.js >= 16 and `git` on your `PATH`.
