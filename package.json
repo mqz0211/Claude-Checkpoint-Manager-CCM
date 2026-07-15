@@ -1,0 +1,32 @@
+{
+  "name": "claude-checkpoint-manager",
+  "version": "1.0.0",
+  "description": "Local, git-native checkpointing for AI-assisted coding sessions. Snapshot code + session context, browse a timeline, and roll back safely — without polluting your git history.",
+  "bin": {
+    "ccm": "./bin/ccm.js"
+  },
+  "type": "commonjs",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "checkpoint",
+    "git",
+    "ai-coding",
+    "devtools",
+    "cli",
+    "snapshot",
+    "rollback"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2"
+  }
+}
