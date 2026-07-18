@@ -1,6 +1,6 @@
 {
   "name": "claude-checkpoint-manager",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Local, git-native checkpointing for AI-assisted coding sessions. Snapshot code + session context, browse a timeline, and roll back safely — without polluting your git history.",
   "bin": {
     "ccm": "./bin/ccm.js"

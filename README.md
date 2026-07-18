@@ -4,6 +4,8 @@
 
 > If you've ever had an AI coding assistant go sideways mid-task and wished you could rewind *both* the files and the conversation state to a known-good point, this is that rewind button.
 
+**Status: beta.** Core commands (`init`, `save`, `status`, `restore`) are implemented and tested, but this hasn't seen much real-world use outside development testing yet. Expect rough edges, and back up anything critical before relying on `--prune` restores. Feedback and issue reports welcome.
+
 ---
 
 ## Why
@@ -90,11 +92,13 @@ Committing every experimental step to your real git history is noisy. Stashing l
 
 ```bash
 # From this repository
-git clone https://github.com/mqz0211/claude-checkpoint-manager-ccm.git
-cd claude-checkpoint-manager-ccm
+git clone https://github.com/your-org/claude-checkpoint-manager.git
+cd claude-checkpoint-manager
 npm install
 npm link          # makes the `ccm` command available globally
 
+# Or, once published:
+npm install -g claude-checkpoint-manager
 ```
 
 Requires Node.js >= 16 and `git` on your `PATH`.
