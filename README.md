@@ -92,8 +92,8 @@ Committing every experimental step to your real git history is noisy. Stashing l
 
 ```bash
 # From this repository
-git clone https://github.com/your-org/claude-checkpoint-manager.git
-cd claude-checkpoint-manager
+git clone https://github.com/mqz0211/Claude-Checkpoint-Manager-CCM.git
+cd Claude-Checkpoint-Manager-CCM
 npm install
 npm link          # makes the `ccm` command available globally
 
