@@ -1,6 +1,6 @@
 # Claude Checkpoint Manager (`ccm`)
 
-**Git-native checkpoints for AI-assisted coding sessions.** Save your code *and* your AI session context together, browse a clean timeline, and roll back instantly — without ever polluting your real `git log`.
+**Git-native checkpoints for AI-assisted coding sessions.** Save your code *and* your AI session context together, browse a clean timeline, and roll back instantly  without ever polluting your real `git log`.
 
 > If you've ever had an AI coding assistant go sideways mid-task and wished you could rewind *both* the files and the conversation state to a known-good point, this is that rewind button.
 
